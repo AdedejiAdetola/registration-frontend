@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+.h2{
+    margin-bottom: 30px;
+}
+.increment{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.increment button{
+    cursor: pointer;
+}
+
+.increment button,
+.increment p{
+    margin: 20px;
+    font-size: 50px;
+}
+
+.flutterbutton {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
